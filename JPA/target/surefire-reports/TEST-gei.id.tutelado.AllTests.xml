@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="gei.id.tutelado.AllTests" time="5.315" tests="26" errors="8" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\migue\Desktop\Uni\4\ID\TT\JPA\target\test-classes;C:\Users\migue\Desktop\Uni\4\ID\TT\JPA\target\classes;C:\Users\migue\.m2\repository\org\hibernate\hibernate-entitymanager\5.4.21.Final\hibernate-entitymanager-5.4.21.Final.jar;C:\Users\migue\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\migue\.m2\repository\org\hibernate\hibernate-core\5.4.21.Final\hibernate-core-5.4.21.Final.jar;C:\Users\migue\.m2\repository\org\javassist\javassist\3.24.0-GA\javassist-3.24.0-GA.jar;C:\Users\migue\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\migue\.m2\repository\org\jboss\jandex\2.1.3.Final\jandex-2.1.3.Final.jar;C:\Users\migue\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\migue\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\migue\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\migue\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\migue\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\migue\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\migue\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\migue\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.0.Final\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\migue\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\migue\.m2\repository\net\bytebuddy\byte-buddy\1.10.10\byte-buddy-1.10.10.jar;C:\Users\migue\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\migue\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\migue\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\migue\.m2\repository\org\postgresql\postgresql\42.5.0\postgresql-42.5.0.jar;C:\Users\migue\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\migue\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\migue\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\migue\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;C:\Users\migue\.m2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\migue\AppData\Local\Temp\surefire9187709522834494985\surefirebooter-20241112183015334_3.jar C:\Users\migue\AppData\Local\Temp\surefire9187709522834494985 2024-11-12T18-30-15_176-jvmRun1 surefire-20241112183015334_1tmp surefire_0-20241112183015334_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\migue\Desktop\Uni\4\ID\TT\JPA\target\test-classes;C:\Users\migue\Desktop\Uni\4\ID\TT\JPA\target\classes;C:\Users\migue\.m2\repository\org\hibernate\hibernate-entitymanager\5.4.21.Final\hibernate-entitymanager-5.4.21.Final.jar;C:\Users\migue\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\migue\.m2\repository\org\hibernate\hibernate-core\5.4.21.Final\hibernate-core-5.4.21.Final.jar;C:\Users\migue\.m2\repository\org\javassist\javassist\3.24.0-GA\javassist-3.24.0-GA.jar;C:\Users\migue\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\migue\.m2\repository\org\jboss\jandex\2.1.3.Final\jandex-2.1.3.Final.jar;C:\Users\migue\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\migue\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\migue\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\migue\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\migue\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\migue\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\migue\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\migue\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.0.Final\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\migue\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\migue\.m2\repository\net\bytebuddy\byte-buddy\1.10.10\byte-buddy-1.10.10.jar;C:\Users\migue\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\migue\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\migue\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\migue\.m2\repository\org\postgresql\postgresql\42.5.0\postgresql-42.5.0.jar;C:\Users\migue\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\migue\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\migue\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\migue\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;C:\Users\migue\.m2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\migue"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\migue\Desktop\Uni\4\ID\TT\JPA"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\migue\AppData\Local\Temp\surefire9187709522834494985\surefirebooter-20241112183015334_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.4+7-LTS"/>
+    <property name="user.name" value="migue"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.4+7"/>
+    <property name="localRepository" value="C:\Users\migue\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\migue\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.4"/>
+    <property name="user.dir" value="C:\Users\migue\Desktop\Uni\4\ID\TT\JPA"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\PostgreSQL\16\bin;C:\Users\migue\scoop\shims;C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin;C:\software\apache-maven-3.9.9\bin;C:\Program Files\MySQL\MySQL Server 8.4\bin;C:\Users\migue\AppData\Local\Microsoft\WindowsApps;C:\Users\migue\AppData\Roaming\npm;C:\Users\migue\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\migue\AppData\Local\GitHubDesktop\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.4+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="test01_Recuperacion" classname="gei.id.tutelado.P01_Usuarios" time="0.222">
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test01_Recuperacion
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida do test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio do test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Obxectivo: Proba de recuperación desde a BD de usuario (sen entradas asociadas) por nif
+				 Casos contemplados:
+				 a) Recuperación por nif existente
+				 b) Recuperacion por nif inexistente
+
+[INFO ] gei.id.tutelado - Probando recuperacion por nif EXISTENTE --------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Probando recuperacion por nif INEXISTENTE -----------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test01_Recuperacion
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test02_Alta" classname="gei.id.tutelado.P01_Usuarios" time="0.022">
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test02_Alta
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida do test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio do test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Obxectivo: Proba de gravación na BD de novo usuario (sen entradas de log asociadas)
+
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test02_Alta
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test03_Eliminacion" classname="gei.id.tutelado.P01_Usuarios" time="0.031">
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test03_Eliminacion
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida do test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio do test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Obxectivo: Proba de eliminación da BD de usuario sen entradas asociadas
+
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test03_Eliminacion
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test04_Modificacion" classname="gei.id.tutelado.P01_Usuarios" time="0.016">
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test04_Modificacion
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida do test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio do test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Obxectivo: Proba de modificación da información básica dun usuario sen entradas de log
+
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test04_Modificacion
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test01_Recuperacion" classname="gei.id.tutelado.P02_Usuarios_Entradas" time="0.11">
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test01_Recuperacion
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpando BD -----------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida do test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Inicio do test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Obxectivo: Proba da recuperación (por codigo) de entradas de log soltas
+				 Casos contemplados:
+				 a) Recuperación por codigo existente
+				 b) Recuperacion por codigo inexistente
+
+[INFO ] gei.id.tutelado - Probando recuperacion por codigo EXISTENTE --------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Probando recuperacion por codigo INEXISTENTE --------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test01_Recuperacion
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test02_Alta" classname="gei.id.tutelado.P02_Usuarios_Entradas" time="0.016">
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test02_Alta
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpando BD -----------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida do test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio do test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Obxectivo: Proba da gravación de entradas de log soltas
+				 Casos contemplados:
+				 a) Primeira entrada de log vinculada a un usuario
+				 b) Nova entrada de log para un usuario con entradas previas
+
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Gravando primeira entrada de log dun usuario --------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Gravando segunda entrada de log dun usuario ---------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test02_Alta
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test03_Eliminacion" classname="gei.id.tutelado.P02_Usuarios_Entradas" time="0.043">
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test03_Eliminacion
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpando BD -----------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida do test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio do test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Obxectivo: Proba de eliminación de entrada de log solta (asignada a usuario)
+
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test03_Eliminacion
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test04_Modificacion" classname="gei.id.tutelado.P02_Usuarios_Entradas" time="0.02">
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test04_Modificacion
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpando BD -----------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida do test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio do test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Obxectivo: Proba de modificación da información dunha entrada de log solta
+
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test04_Modificacion
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test05_LAZY" classname="gei.id.tutelado.P02_Usuarios_Entradas" time="0.032">
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test05_LAZY
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpando BD -----------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida do test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Inicio do test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Obxectivo: Proba da recuperación de propiedades LAZY
+				 Casos contemplados:
+				 a) Recuperación de usuario con colección (LAZY) de entradas de log 
+				 b) Carga forzada de colección LAZY da dita coleccion
+				 c) Recuperacion de entrada de log solta con referencia (EAGER) a usuario
+
+[INFO ] gei.id.tutelado - Probando (excepcion tras) recuperacion LAZY ---------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Acceso a entradas de log de usuario
+[INFO ] gei.id.tutelado - org.hibernate.LazyInitializationException
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Probando carga forzada de coleccion LAZY ------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test05_LAZY
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test06_EAGER" classname="gei.id.tutelado.P02_Usuarios_Entradas" time="0.016">
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test06_EAGER
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpando BD -----------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida do test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Inicio do test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Obxectivo: Proba da recuperación de propiedades EAGER
+
+[INFO ] gei.id.tutelado - Probando (que non hai excepcion tras) acceso inicial a propiedade EAGER fora de sesion ----------------------------------------
+[INFO ] gei.id.tutelado - Acceso a usuario de entrada de log
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test06_EAGER
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test07_Propagacion_Remove" classname="gei.id.tutelado.P02_Usuarios_Entradas" time="0.032">
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test07_Propagacion_Remove
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpando BD -----------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida do test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio do test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Obxectivo: Proba de eliminación de de usuario con entradas de log asociadas
+
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test07_Propagacion_Remove
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test08_INNER_JOIN" classname="gei.id.tutelado.P03_Consultas" time="0.12">
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test08_INNER_JOIN
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpando BD -----------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida do test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio do test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Obxectivo: Proba da consulta EntradaLog.recuperaTodasUsuario
+
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test08_INNER_JOIN
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test02_Alta" classname="gei.id.tutelado.P01_Marcas" time="0.069">
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test02_Alta
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpiando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida del test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio del test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Objetivo: Prueba de guardado en la BD de nueva marca
+
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test02_Alta
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test04_Modificacion" classname="gei.id.tutelado.P01_Marcas" time="0.032">
+    <error message="Cannot invoke &quot;gei.id.tutelado.model.Marca.getNombre()&quot; because &quot;m2&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "gei.id.tutelado.model.Marca.getNombre()" because "m2" is null
+	at gei.id.tutelado.P01_Marcas.test04_Modificacion(P01_Marcas.java:172)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test04_Modificacion
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpiando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida del test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio del test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Objetivo: Prueba de modificación de la información básica de una marca sin distribuidores
+
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test04_Modificacion
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test01_Recuperacion" classname="gei.id.tutelado.P01_Marcas" time="0.015">
+    <error message="failed to lazily initialize a collection of role: gei.id.tutelado.model.Marca.esloganes, could not initialize proxy - no Session" type="org.hibernate.LazyInitializationException"><![CDATA[org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: gei.id.tutelado.model.Marca.esloganes, could not initialize proxy - no Session
+	at org.hibernate.collection.internal.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:606)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:585)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.read(AbstractPersistentCollection.java:149)
+	at org.hibernate.collection.internal.PersistentBag.toString(PersistentBag.java:621)
+	at java.base/java.lang.String.valueOf(String.java:4465)
+	at org.junit.Assert.format(Assert.java:843)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at gei.id.tutelado.P01_Marcas.test01_Recuperacion(P01_Marcas.java:94)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test01_Recuperacion
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpiando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida do test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio del test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Objetivo: Prueba de recuperación desde la BD de marca (sin entradas asociadas) por nombre
+				 Casos contemplados:
+				 a) Recuperación por nombre existente
+				 b) Recuperacion por nombre inexistente
+
+[INFO ] gei.id.tutelado - Probando recuperacion por nombre EXISTENTE --------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test01_Recuperacion
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test03_Eliminacion" classname="gei.id.tutelado.P01_Marcas" time="0.016">
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test03_Eliminacion
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpiando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida del test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio del test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Objetivo: Prueba de eliminación de la BD de marcas sin distribuidores asociados
+
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test03_Eliminacion
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test02_Alta" classname="gei.id.tutelado.P02_Distribuidores" time="0.095">
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test02_Alta
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpiando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida del test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio del test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Objetivo: Prueba de guardado en la BD de distribuidores sueltos
+				 Casos contemplados:
+				 a) Primer distribuidor vinculado a una marca
+				 b) Nuevo distribuidor para una marca con distribuidores previos
+
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Guardando primer distribuidor de una marca --------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Guardando segundo distribuidor de una marca --------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test02_Alta
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test05_LAZY" classname="gei.id.tutelado.P02_Distribuidores" time="0.031">
+    <failure message="expected:&lt;1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at gei.id.tutelado.P02_Distribuidores.test05_LAZY(P02_Distribuidores.java:248)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test05_LAZY
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpiando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida del test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Inicio del test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Objetivo: Prueba da recuperación de propiedades LAZY
+				 Casos contemplados:
+				 a) Recuperación de marca con colección (LAZY) de distribuidores 
+				 b) Carga forzada de colección LAZY de dicha coleccion
+				 c) Recuperacion de distribuidor con referencia (EAGER) a usuario
+
+[INFO ] gei.id.tutelado - Probando (excepcion tras) recuperacion LAZY ---------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Acceso a distribuidores de marcas
+[INFO ] gei.id.tutelado - org.hibernate.LazyInitializationException
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Probando carga forzada de coleccion LAZY ------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test05_LAZY
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test04_Modificacion" classname="gei.id.tutelado.P02_Distribuidores" time="0.015">
+    <error message="Cannot invoke &quot;gei.id.tutelado.model.Distribuidor.getNombre()&quot; because &quot;d1&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "gei.id.tutelado.model.Distribuidor.getNombre()" because "d1" is null
+	at gei.id.tutelado.P02_Distribuidores.test04_Modificacion(P02_Distribuidores.java:193)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test04_Modificacion
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpiando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida del test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio del test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Objetivo: Prueba de modificación de la información básica de un distribuidor
+
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test04_Modificacion
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test01_Recuperacion" classname="gei.id.tutelado.P02_Distribuidores" time="0.016">
+    <error message="Cannot invoke &quot;gei.id.tutelado.model.Distribuidor.getNombre()&quot; because &quot;d&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "gei.id.tutelado.model.Distribuidor.getNombre()" because "d" is null
+	at gei.id.tutelado.P02_Distribuidores.test01_Recuperacion(P02_Distribuidores.java:99)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test01_Recuperacion
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpiando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida do test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio del test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Objetivo: Prueba de recuperación (por nombre) de distribuidor sueltos
+				 Casos contemplados:
+				 a) Recuperación por nombre existente
+				 b) Recuperacion por nombre inexistente
+
+[INFO ] gei.id.tutelado - Probando recuperacion por nombre EXISTENTE --------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test01_Recuperacion
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test03_Eliminacion" classname="gei.id.tutelado.P02_Distribuidores" time="0.016">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertNotNull(Assert.java:712)
+	at org.junit.Assert.assertNotNull(Assert.java:722)
+	at gei.id.tutelado.P02_Distribuidores.test03_Eliminacion(P02_Distribuidores.java:166)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test03_Eliminacion
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpiando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida del test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio del test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Objetivo: Prueba de eliminación de distribuidores sueltos (asignados a una marca)
+
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test03_Eliminacion
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test06_EAGER" classname="gei.id.tutelado.P02_Distribuidores" time="0.025">
+    <error message="Cannot invoke &quot;gei.id.tutelado.model.Distribuidor.getMarca()&quot; because &quot;d&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "gei.id.tutelado.model.Distribuidor.getMarca()" because "d" is null
+	at gei.id.tutelado.P02_Distribuidores.test06_EAGER(P02_Distribuidores.java:284)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test06_EAGER
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpiando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida del test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Inicio del test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Objetivo: Prueba da recuperación de propiedades EAGER
+
+[INFO ] gei.id.tutelado - Probando (que no hay excepcion tras) acceso inicial a propiedade EAGER fuera de sesion ----------------------------------------
+[INFO ] gei.id.tutelado - Acceso a marca de distribuidor
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test06_EAGER
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test02_Alta" classname="gei.id.tutelado.P04_ProductosLacteos" time="0.021">
+    <error message="Cannot invoke &quot;gei.id.tutelado.model.Marca.getId()&quot; because &quot;gei.id.tutelado.P04_ProductosLacteos.productorDatos.m1&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "gei.id.tutelado.model.Marca.getId()" because "gei.id.tutelado.P04_ProductosLacteos.productorDatos.m1" is null
+	at gei.id.tutelado.P04_ProductosLacteos.test02_Alta(P04_ProductosLacteos.java:124)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test02_Alta
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpiando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida del test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio del test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Objetivo: Prueba de guardado en la BD de nueva marca
+
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test02_Alta
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test04_Modificacion" classname="gei.id.tutelado.P04_ProductosLacteos" time="0.011">
+    <error message="Cannot invoke &quot;gei.id.tutelado.model.ProductosLacteos.getNombre()&quot; because &quot;p1&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "gei.id.tutelado.model.ProductosLacteos.getNombre()" because "p1" is null
+	at gei.id.tutelado.P04_ProductosLacteos.test04_Modificacion(P04_ProductosLacteos.java:168)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test04_Modificacion
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpiando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida del test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio del test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Objetivo: Prueba de modificación de la información básica de un producto lacteo 
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test04_Modificacion
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test01_Recuperacion" classname="gei.id.tutelado.P04_ProductosLacteos" time="0.0">
+    <error message="Cannot invoke &quot;gei.id.tutelado.model.ProductosLacteos.getNombre()&quot; because &quot;p&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "gei.id.tutelado.model.ProductosLacteos.getNombre()" because "p" is null
+	at gei.id.tutelado.P04_ProductosLacteos.test01_Recuperacion(P04_ProductosLacteos.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test01_Recuperacion
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpiando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida do test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio del test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Objetivo: Prueba de recuperación desde la BD de productoslacteos (sin entradas asociadas) por nombre
+				 Casos contemplados:
+				 a) Recuperación por nombre existente
+				 b) Recuperacion por nombre inexistente
+
+[INFO ] gei.id.tutelado - Probando recuperacion por nombre EXISTENTE --------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test01_Recuperacion
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="test03_Eliminacion" classname="gei.id.tutelado.P04_ProductosLacteos" time="0.0">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertNotNull(Assert.java:712)
+	at org.junit.Assert.assertNotNull(Assert.java:722)
+	at gei.id.tutelado.P04_ProductosLacteos.test03_Eliminacion(P04_ProductosLacteos.java:145)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - Iniciando test: test03_Eliminacion
+[INFO ] gei.id.tutelado - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Limpiando BD --------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Configurando situación de partida del test -----------------------------------------------------------------------
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - Inicio del test --------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Objetivo: Prueba de eliminación de la BD de marcas sin distribuidores asociados
+
+[INFO ] gei.id.tutelado - 
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] gei.id.tutelado - Finalizado test: test03_Eliminacion
+[INFO ] gei.id.tutelado - -----------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+</testsuite>
